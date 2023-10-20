@@ -12,7 +12,8 @@ repository = "https://github.com/uttarayan21/ansi-to-tui"
 [dependencies]
 nom = "7.1"
 simdutf8 = { version = "0.1", optional = true }
-tui = { version = ">= 0.21", default-features = false, package = "ratatui" }
+tui = { git = "https://github.com/ratatui-org/ratatui.git", tag = "v0.23.1-alpha.6", default-features = false, package = "ratatui" }
+
 thiserror = "1.0"
 
 [dev-dependencies]
