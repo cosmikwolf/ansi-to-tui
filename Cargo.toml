@@ -10,9 +10,9 @@ readme = "README.md"
 repository = "https://github.com/uttarayan21/ansi-to-tui"
 
 [dependencies]
+tui = { version = ">= 0.24.0", default-features = false, package = "ratatui" }
 nom = "7.1"
 simdutf8 = { version = "0.1", optional = true }
-tui = { git = "https://github.com/ratatui-org/ratatui.git", tag = "v0.23.1-alpha.6", default-features = false, package = "ratatui" }
 
 thiserror = "1.0"
 
